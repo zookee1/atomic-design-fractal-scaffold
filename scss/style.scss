@@ -3,7 +3,9 @@
 // /*------------------------------------*\
 //     #SETTINGS
 // \*------------------------------------*/
+@import "../../node_modules/inuitcss/settings/example.settings.config";
 @import "../../node_modules/inuitcss/settings/settings.core";
+@import "../../node_modules/inuitcss/settings/example.settings.global";
 
 
 
@@ -12,7 +14,6 @@
 // /*------------------------------------*\
 //     #TOOLS
 // \*------------------------------------*/
-@import "../../node_modules/inuitcss/tools/tools.rem";
 @import "../../node_modules/inuitcss/tools/tools.font-size";
 @import "../../node_modules/inuitcss/tools/tools.clearfix";
 @import "../../node_modules/inuitcss/tools/tools.hidden";
@@ -59,7 +60,7 @@
 // @import "../../node_modules/inuitcss/objects/objects.block";
 // @import "../../node_modules/inuitcss/objects/objects.ratio";
 // @import "../../node_modules/inuitcss/objects/objects.crop";
-// @import "../../node_modules/inuitcss/objects/objects.tables";
+// @import "../../node_modules/inuitcss/objects/objects.table";
 // @import "../../node_modules/inuitcss/objects/objects.pack";
 
 
@@ -69,6 +70,7 @@
 // /*------------------------------------*\
 //     #COMPONENTS
 // \*------------------------------------*/
+@import "../../node_modules/inuitcss/components/example.components.buttons";
 
 
 
@@ -80,6 +82,7 @@
 @import "../../node_modules/inuitcss/utilities/utilities.clearfix";
 @import "../../node_modules/inuitcss/utilities/utilities.widths";
 @import "../../node_modules/inuitcss/utilities/utilities.headings";
-@import "../../node_modules/inuitcss/utilities/utilities.spacing";
+@import "../../node_modules/inuitcss/utilities/utilities.spacings";
+@import "../../node_modules/inuitcss/utilities/utilities.responsive-spacings";
 @import "../../node_modules/inuitcss/utilities/utilities.print";
 @import "../../node_modules/inuitcss/utilities/utilities.hide";
