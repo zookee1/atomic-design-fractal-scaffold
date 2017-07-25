@@ -5,6 +5,8 @@
 // \*------------------------------------*/
 @import "../../node_modules/inuitcss/settings/example.settings.config";
 @import "../../node_modules/inuitcss/settings/settings.core";
+
+$global-radius: 0 !default;
 @import "../../node_modules/inuitcss/settings/example.settings.global";
 
 
@@ -50,7 +52,7 @@
 // /*------------------------------------*\
 //     #OBJECTS
 // \*------------------------------------*/
-// @import "../../node_modules/inuitcss/objects/objects.wrapper";
+@import "../../node_modules/inuitcss/objects/objects.wrapper";
 // @import "../../node_modules/inuitcss/objects/objects.layout";
 // @import "../../node_modules/inuitcss/objects/objects.media";
 // @import "../../node_modules/inuitcss/objects/objects.flag";
@@ -71,6 +73,9 @@
 //     #COMPONENTS
 // \*------------------------------------*/
 @import "../../node_modules/inuitcss/components/example.components.buttons";
+@import "components/components.buttons";
+@import "components/components.text-input";
+@import "components/components.page-head";
 
 
 
